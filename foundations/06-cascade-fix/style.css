@@ -3,7 +3,8 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
+/* descendant combinator - more specific */
+body .small-para {
   font-size: 14px;
 }
 
@@ -11,7 +12,8 @@
   font-size: 22px;
 }
 
-.confirm {
+/* id - more specific */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,12 +25,13 @@
   font-size: 20px;
 }
 
-.child {
+/* chaining selector - more specific, as well */
+.text.child {
   color: red;
   font-size: 14px;
 }
 
-div.text {
+.text {
   color: green;
   font-size: 22px;
 }
