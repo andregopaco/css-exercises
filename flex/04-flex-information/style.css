@@ -12,11 +12,21 @@ img {
   font-weight: 900;
 }
 
+.all-items {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
 .item-one, .item-two, .item-three, .item-four {
   display: flex;
   flex-wrap: wrap;
   width: 200px;
   justify-content: center;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
