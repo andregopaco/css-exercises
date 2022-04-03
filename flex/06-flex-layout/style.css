@@ -50,8 +50,24 @@ a {
 .footer, .header {
   display: flex;
   justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .left-links, .right-links {
   display: flex;
+  gap: 8px;
+}
+
+.content {
+  align-self: center;
+}
+
+.input, .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  gap: 8px;
 }
