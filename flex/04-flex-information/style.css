@@ -12,6 +12,13 @@ img {
   font-weight: 900;
 }
 
+.item-one, .item-two, .item-three, .item-four {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
