@@ -20,10 +20,13 @@ img {
   gap: 52px;
 }
 
+/* Odin solution didn't create another flex for the classes below (and it used just one class to all the items. 
+Check it on github; Also, they centered the images through a text-align property on the 'body' of the page (!) */
+
 .item-one, .item-two, .item-three, .item-four {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
+  max-width: 200px;
   justify-content: center;
 }
 
