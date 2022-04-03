@@ -34,6 +34,10 @@ li {
   list-style-type: none;
 }
 
+ul {
+  padding-left: 0;
+}
+
 a {
   text-decoration: none;
   color: grey;
@@ -41,4 +45,13 @@ a {
 
 .footer {
   background-color: #eeeeee;
+}
+
+.footer, .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
 }
